@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { VscGithubInverted } from "react-icons/vsc";
 
 const Footer = () => {

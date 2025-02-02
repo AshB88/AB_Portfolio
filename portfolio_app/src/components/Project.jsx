@@ -7,7 +7,7 @@ const Project = ({ title, link, gitHubLink }) => {
       <div>
         <h3>{title}</h3>
       </div>
-      {/*<a href={link}></a>*/}
+      {<a href={link}></a>}
       {<a href={gitHubLink}><VscGithubInverted /></a>}
     </div>
   );
