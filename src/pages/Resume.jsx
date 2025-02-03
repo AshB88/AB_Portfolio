@@ -1,10 +1,16 @@
 import '../styles/Resume.css';
+import React from 'react';
+import resumePDF from'../assets/Resume.pdf';
+import { TbFileDownload } from "react-icons/tb";
+
 
 function Resume() {
     return (
         <div className="resume">
-            <h1>Resume</h1>
+            <h1>Resume</h1>  
+            <a href={resumePDF} download="Resume.pdf">Download PDF <TbFileDownload /></a>         
             <div className="columns">
+                
                 <div id="summary">
                     <h2>Summary</h2>
                     <p>Aspiring full-stack developer with a strong foundation in web development and a background in management, customer service, and team leadership. Passionate about problem-solving, efficient system design, and user-friendly applications. Currently completing a full-stack software development bootcamp and eager to leverage technical skills and leadership experience to transition into the tech industry.</p>
