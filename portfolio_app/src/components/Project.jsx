@@ -1,5 +1,7 @@
-import React from 'react';
+//import React from 'react';
 import { VscGithubInverted } from "react-icons/vsc";
+import { IoGlobeOutline } from "react-icons/io5"
+
 
 const Project = ({ title, link, gitHubLink }) => {
   return (
@@ -7,8 +9,8 @@ const Project = ({ title, link, gitHubLink }) => {
       <div>
         <h3>{title}</h3>
       </div>
-      {<a href={link}></a>}
-      {<a href={gitHubLink}><VscGithubInverted /></a>}
+      {<a href={link}>Website <IoGlobeOutline /></a>}
+      {<a href={gitHubLink}>GitHub <VscGithubInverted /></a>}
     </div>
   );
 };
