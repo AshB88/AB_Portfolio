@@ -1,14 +1,14 @@
 .contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     color: var(--light);
     background-color: var(--primary);
-    padding: 20px;
-    margin: 20px 40px;
+    padding: 30px 50px;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
     text-align: center;
     border: solid 5px var(--secondary);
 }
@@ -21,18 +21,53 @@
     border: var(--secondary) solid 5px;
 }
 
-.contact p {
-    font-size: 1.5rem;
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
     padding-top: 20px;
 }
 
-.contact a {
-    color: var(--light);
-    text-decoration: none;
-    font-size: 5rem;
-    padding-top: 20px;
+form div {
+    margin-bottom: 15px;
 }
 
-.contact a:hover {
-    color: var(--tertiary);
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--dark);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: var(--secondary) 5px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--dark);
+    color: var(--like);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: var(--secondary) 5px solid;
+}
+
+button:hover {
+    background-color: var(--tertiary);
+    color: var(--dark)
+}
+
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
 }

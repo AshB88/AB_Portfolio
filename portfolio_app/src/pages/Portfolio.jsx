@@ -9,23 +9,23 @@ const Portfolio = () => {
             <section>
                 <div className="card" id="project1">
                     <Project
-                        title="Project 1"
-                        link="https://ashb88.github.io/Better-Reads/"
-                        gitHubLink="https://github.com/AshB88/Better-Reads"
+                        title="Portfolio"
+                        link=""
+                        gitHubLink="https://github.com/AshB88/AB_Portfolio"
                     />
                 </div>
                 <div className="card" id="project2">
                     <Project 
-                        title="Coming Soon"
-                        link="#"
-                        gitHubLink="#"
+                        title="Better Reads"
+                        link="https://ashb88.github.io/Better-Reads/"
+                        gitHubLink="https://github.com/AshB88/Better-Reads"
                     />
                 </div>
                 <div className="card" id="project3">
                     <Project 
-                        title="Coming Soon"
-                        link="#"
-                        gitHubLink="#"
+                        title="Study Guide"
+                        link="https://ashb88.github.io/prework-study-guide/"
+                        gitHubLink="https://github.com/AshB88/prework-study-guide"
                     />
                 </div>
                 <div className="card" id="project4">

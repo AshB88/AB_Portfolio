@@ -82,15 +82,15 @@ div.project a:hover {
 }
 
 #project1 {
-    background-image: url("../assets/Better-Reads-Screenshot.png");
+    background-image: url("../assets/portfolio.png");
 }
 
 #project2 {
-    background-image: url("../assets/codeplaceholderimg.png");
+    background-image: url("../assets/Better-Reads-Screenshot.png");
 }
 
 #project3 {
-    background-image: url("../assets/codeplaceholderimg.png");
+    background-image: url("../assets/studyguide.png");
 }
 
 #project4 {
@@ -103,4 +103,16 @@ div.project a:hover {
 
 #project6 {
     background-image: url("../assets/codeplaceholderimg.png");
+}
+
+#project4 a {
+    visibility: hidden;
+}
+
+#project5 a {
+    visibility: hidden;
+}
+
+#project6 a {
+    visibility: hidden;
 }
