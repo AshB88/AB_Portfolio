@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: var(--light);
+    padding: 20px;
+    text-shadow: var(--dark) 0 0 10px;
+    background-image: linear-gradient(to right, var(--dark), var(--primary), var(--dark));
+    border-bottom: var(--secondary) 5px solid;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    top: 67px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: var(--primary);
+    color: var(--light);
+    border: 5px solid var(--secondary);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 40px);
+    box-sizing: border-box;
+    min-width: 300px;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.project div {
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 5px;
+    border-radius: 10px;
+    border: var(--secondary) 5px solid;
+    text-shadow: var(--primary) 0 0 10px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    margin: 0;
+}
+
+div.project a {
+    color: var(--light);
+    align-self: flex-end;
+    padding-right: 10px;
+    font-size: 30px;
+    text-shadow: var(--dark) 0 0 10px;
+    text-decoration: none;
+}
+
+div.project a:hover {
+    color: var(--dark);
+}
+
+#project1 {
+    background-image: url("../assets/Better-Reads-Screenshot.png");
+}
+
+#project2 {
+    background-image: url("../assets/codeplaceholderimg.png");
+}
+
+#project3 {
+    background-image: url("../assets/codeplaceholderimg.png");
+}
+
+#project4 {
+    background-image: url("../assets/codeplaceholderimg.png");
+}
+
+#project5 {
+    background-image: url("../assets/codeplaceholderimg.png");
+}
+
+#project6 {
+    background-image: url("../assets/codeplaceholderimg.png");
+}

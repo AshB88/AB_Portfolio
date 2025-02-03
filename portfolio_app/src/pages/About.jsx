@@ -1,6 +1,9 @@
+import '../styles/About.css';
+
 export default function About() {
     return (
         <div className="about">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="placeholder" />
             <h1>About me</h1>
             <p>
                 Sample about me:

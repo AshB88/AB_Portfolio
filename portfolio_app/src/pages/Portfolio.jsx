@@ -1,6 +1,6 @@
 //import React from 'react';
 import Project from '../components/Project';
-//import '../styles/Portfolio.css';
+import '../styles/Portfolio.css';
 
 const Portfolio = () => {
     return (
@@ -8,7 +8,7 @@ const Portfolio = () => {
             <h1>Portfolio</h1>
             <section>
                 <div className="card" id="project1">
-                    <Project 
+                    <Project
                         title="Project 1"
                         link="https://ashb88.github.io/Better-Reads/"
                         gitHubLink="https://github.com/AshB88/Better-Reads"
@@ -16,36 +16,37 @@ const Portfolio = () => {
                 </div>
                 <div className="card" id="project2">
                     <Project 
-                        title="Project 2"
+                        title="Coming Soon"
                         link="#"
+                        gitHubLink="#"
                     />
                 </div>
                 <div className="card" id="project3">
                     <Project 
-                        title="Project 3"
+                        title="Coming Soon"
                         link="#"
-                        gitHubLink=""
+                        gitHubLink="#"
                     />
                 </div>
                 <div className="card" id="project4">
                     <Project 
-                        title="Project 4"
+                        title="Coming Soon"
                         link="#"
-                        gitHubLink=""
+                        gitHubLink="#"
                     />
                 </div>
                 <div className="card" id="project5">
                     <Project 
-                        title="Project 5"
+                        title="Coming Soon"
                         link="#"
-                        gitHubLink=""
+                        gitHubLink="#"
                     />
                 </div>
                 <div className="card" id="project6">
                     <Project 
                         title="Coming Soon"
                         link="#"
-                        gitHubLink=""
+                        gitHubLink="#"
                     />
                 </div>
             </section>
