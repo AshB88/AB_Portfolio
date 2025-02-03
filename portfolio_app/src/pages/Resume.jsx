@@ -33,8 +33,15 @@ function Resume() {
                 <section id="experience">
                     <h2>Experience</h2>
                     <div className="info">         
-                        <h3>Full Stack Web Developer</h3>
-                        <p>Rutgers Coding Bootcamp</p>
+                        <h3>Full Stack Web Developmet Program:</h3>
+                        <p>In this program I have gained hands-on experience in full-stack development through real-world projects and agile team collaboration.</p>
+                        <ul>
+                            <li>Developed websites using React, Node.js, and Express.js.</li>
+                            <li>Implemented RESTful APIs and integrated third-party services.</li>
+                            <li>Collaborated with a team of developers using Git and GitHub for version control.</li>
+                            <li>Utilized Agile methodologies to manage project timelines and deliverables.</li>
+                            <li>Designed and optimized database schemas using PostgreSQL.</li>
+                        </ul>
 
                     </div>
                 </section>
