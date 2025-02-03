@@ -1,4 +1,4 @@
-//import React from 'react';
+import React from 'react';
 import Project from '../components/Project';
 import '../styles/Portfolio.css';
 
@@ -10,7 +10,7 @@ const Portfolio = () => {
                 <div className="card" id="project1">
                     <Project
                         title="Portfolio"
-                        link=""
+                        link="https://abportfolio888.netlify.app/Portfolio"
                         gitHubLink="https://github.com/AshB88/AB_Portfolio"
                     />
                 </div>
