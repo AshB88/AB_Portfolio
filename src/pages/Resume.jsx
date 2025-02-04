@@ -1,5 +1,4 @@
 import '../styles/Resume.css';
-import React from 'react';
 import resumePDF from'../assets/Resume.pdf';
 import { TbFileDownload } from "react-icons/tb";
 
