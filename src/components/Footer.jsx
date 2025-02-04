@@ -1,4 +1,3 @@
-import React from 'react';
 import { VscGithubInverted } from "react-icons/vsc";
 import { IoLogoStackoverflow } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
