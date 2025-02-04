@@ -69,3 +69,6 @@ For any inquiries or feedback, please contact me at:
 - **Email**: ashleighb.jjd@gmail.com
 - **LinkedIn**: [Ashleigh Brown](https://www.linkedin.com/in/ashleigh-brown-42981834a/)
 - **GitHub**: [AshB88](https://github.com/AshB88)
+
+## Acknowledgements
+Some of the code in this project was generated with the assistance of GitHub Copilot.
